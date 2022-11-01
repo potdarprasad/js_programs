@@ -1,0 +1,1 @@
+This repository help us to understand basic JS concepts
