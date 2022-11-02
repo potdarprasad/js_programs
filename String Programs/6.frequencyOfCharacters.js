@@ -21,11 +21,13 @@ for (let index in str) {
 let frequencyObject = {};
 
 for (let i = 0; i < str.length; i++) {
-    if (frequencyObject[str[i]]) {
-        frequencyObject[str[i]]++;
-    } else {
-        frequencyObject[str[i]] = 1;
-    }
+    // if (frequencyObject[str[i]]) {
+    //     frequencyObject[str[i]]++;
+    // } else {
+    //     frequencyObject[str[i]] = 1;
+    // }
+
+    frequencyObject[str[i]] ? frequencyObject[str[i]]++ : frequencyObject[str[i]] = 1;
 }
 
 console.log(frequencyObject);
