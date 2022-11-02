@@ -31,3 +31,7 @@ for (let i = 0; i < str.length; i++) {
 }
 
 console.log(frequencyObject);
+
+for(let key in frequencyObject){
+    console.log(`${key} repeated ${frequencyObject[key]} times`);
+}
