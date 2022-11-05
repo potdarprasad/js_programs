@@ -1,0 +1,22 @@
+<script>
+    aTypicalFunction();
+
+    function aTypicalFunction(){
+        console.log('typical function called');
+    }
+
+
+    const aAnnonymousFunction = function(){
+        console.log('annonymous function called');
+    }
+
+    aAnnonymousFunction();
+
+    const aArrowFunction = () => 5;
+
+    console.log(aArrowFunction());
+
+    (function(){
+        console.log('test data');
+    })();
+</script>
